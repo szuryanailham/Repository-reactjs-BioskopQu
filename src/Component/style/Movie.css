@@ -4,7 +4,6 @@
   width: 100%;
   min-height: 200px;
   margin-top: 3rem;
-  background-color: salmon;
 }
 .title-topMovie {
   color: white;
@@ -73,9 +72,11 @@ input:focus {
   display: flex;
   flex-wrap: wrap;
   gap: 35px;
+  justify-content: center;
+  align-items: center;
 }
 .movie-item {
-  margin: auto;
+  /* margin: auto; */
   width: 280px;
   height: 350px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
@@ -109,4 +110,17 @@ input:focus {
   line-height: 20px;
   cursor: pointer;
   transition: 0.3s;
+}
+@media screen and (max-width: 768px) {
+  .movie-input {
+    width: 60%;
+    margin-left: 80px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .movie-input {
+    width: 50%;
+    margin-left: 55px;
+  }
 }
