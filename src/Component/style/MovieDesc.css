@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;1,200&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+.movieDes-box {
+  width: 95%;
+  min-height: 200px;
+  margin: 5rem auto;
+  color: white;
+  display: flex;
+  font-family: "Source Sans Pro", sans-serif;
+  gap: 20px;
+}
+.image-movieDesc img {
+  width: 300px;
+  height: 350px;
+  border-radius: 6px;
+}
+.description {
+  margin-top: 10px;
+}
+
+.btn-box {
+  width: 450px;
+  margin: -200px auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn {
+  width: 9rem;
+  appearance: none;
+  border: 1px solid rgba(27, 31, 35, 0.15);
+  border-radius: 6px;
+  box-shadow: rgba(27, 31, 35, 0.1) 0 1px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  font-family: -apple-system, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  padding: 10px 20px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  white-space: nowrap;
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn-watch {
+  background-color: rgb(181, 15, 15);
+}
+.btn-watch p {
+  margin-bottom: 1px;
+}
+.btn-watch:hover {
+  background-color: rgb(146, 23, 23);
+}
+.btn-donwloand {
+  background-color: green;
+}
+.btn-donwloand:hover {
+  background-color: rgb(2, 75, 2);
+}
+.icon-donwloand,
+.icon-watch {
+  font-size: 18px;
+}

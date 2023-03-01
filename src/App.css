@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+body {
+  background-color: #4d4d4d;
+  font-family: "Bebas Neue", cursive;
+}
+.nav {
+  top: 0;
+  background-color: black;
+  height: 3rem;
+  width: 100%;
+  position: fixed;
+  letter-spacing: 2px;
+  z-index: 9999;
+}
+.nav-items {
+  padding: 12px 0 0 0;
+  display: flex;
+  justify-content: start;
+}
+.nav-item {
+  padding: 0 17px;
+  color: white;
+}
+.logo {
+  font-size: 20px;
+}
+.login-item {
+  margin-left: 58rem;
+  font-size: 18px;
+}

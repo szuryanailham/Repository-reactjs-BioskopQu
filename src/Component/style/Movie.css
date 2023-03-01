@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+.movie-page {
+  width: 100%;
+  min-height: 200px;
+  margin-top: 3rem;
+}
+.title-topMovie {
+  color: white;
+  text-align: center;
+  margin-top: 4rem;
+  font-size: 32px;
+  font-weight: bold;
+}
+.movie-search {
+  width: 700px;
+  margin: 20px auto;
+}
+.movie-input {
+  width: 70%;
+  height: 40px;
+  margin-left: 100px;
+  padding: 5px;
+  letter-spacing: 1px;
+  border-radius: 6px;
+  position: relative;
+  font-family: "Roboto", sans-serif;
+}
+input:focus {
+  outline: none;
+}
+.button-search {
+  position: absolute;
+  top: 2px;
+  right: 75px;
+  appearance: none;
+  background-color: #2ea44f;
+  border: 1px solid rgba(27, 31, 35, 0.15);
+  border-radius: 0 6px 6px 0;
+  box-shadow: rgba(27, 31, 35, 0.1) 0 1px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  padding: 9.8px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+.button-search:hover {
+  background-color: #2c974b;
+}
+
+.button-search:focus {
+  background-color: #217a3a;
+  outline: none;
+}
+.movie-content {
+  display: flex;
+  margin-top: 20px;
+  width: 99%;
+  min-height: 200px;
+  padding: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 35px;
+}
+.movie-item {
+  margin: auto;
+  width: 280px;
+  height: 350px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.movie-img {
+  width: 300px;
+  height: 350px;
+  border-radius: 6px;
+}
+.item-text {
+  margin: -80px 0 0 10px;
+  color: white;
+  font-weight: bold;
+  text-shadow: 2px 2px rgb(0, 0, 0, 0.9);
+}
+
+.alert .alert-danger {
+  background-color: #b41509b1;
+  color: white;
+  position: absolute;
+  padding: 15px;
+  left: 400px;
+}
+
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
