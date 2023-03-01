@@ -5,6 +5,10 @@ and some item fiture there are:
 1.using Fetch api on AXIOS library of javascript 2. two special item is search and show detail of the movie 3. next fiture is using react-router to make some navbar menu without render or
 make website in single-page
 
+# show demo of my Project
+
+klick this link to see our website demo https://bioskopqu-szuryanailham.netlify.app/
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
